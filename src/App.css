@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.background-image {
+  width: 100%;
+  background-image: url('./assets/Rectangle\ 9.png');
+  
+}
+
+.App {
+  position: relative;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+}
+
+.custom-navbar {
+  position: relative; 
+  z-index: 1; 
+  background-color: transparent !important;
+}
+.custom-navbar .nav-link {
+  color: white !important;
+  font-weight:300;
+  margin-right:10px
+}
+.ml-auto{
+  margin-left:340px;
+  
+}
+
+
+.icon-group {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.icon {
+  margin-right: 20px; 
+  font-size: 24px; 
+  color: white; 
+  cursor:pointer
+}
+.navbar-brand-container {
+  display: flex;
+  align-items: center;
+  justify-content:center
+}
+.icon-group{
+  margin-bottom:10px
+}
+
+.logo{
+  margin-right:80px
+}
+
+/* App.css */
+/* ... Your existing styles ... */
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 85vh; /* Set the container height to 100vh to center vertically */
+  text-align: center;
+}
+
+.big-text {
+  font-size: 3rem; /* Adjust the font size as needed */
+  margin: 20px 0; /* Add spacing between the texts */
+  color:white
+}
+.small-text {
+  font-size: 20px; /* Adjust the font size as needed */
+  margin: 20px 0; /* Add spacing between the texts */
+  color:white
+}
+
+.bold-text {
+  font-weight: bold;
+  
+}
+/* App.css */
+/* ... Your existing styles ... */
+
+.try-for-free-button {
+  background-color: #2091F9;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width:200px;
+  height:40px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:25px
+}
+
+.try-for-free-button:hover {
+  background-color: #176BB7; /* Darker shade on hover */
+}
+
+.text-features{
+  color:black
+}
+.text-features-container{
+  margin-top:100px
+}
+
+.title-features{
+  font-size:29px
+}
+.text-features{
+  font-size:18px;
+  font-weight:300
+}
